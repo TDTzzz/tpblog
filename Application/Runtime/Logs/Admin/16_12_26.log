@@ -1,0 +1,2446 @@
+[ 2016-12-26T13:34:00+08:00 ] 127.0.0.1 /Admin/Auser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.037931s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.038055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020462s ]
+
+[ 2016-12-26T13:34:03+08:00 ] 127.0.0.1 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-12-26T13:34:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/index/do/chk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1411s ]
+SQL: SELECT * FROM `admin` WHERE `name` = '田添' AND `passwd` = '111' LIMIT 1   [ RunTime:0.0752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-12-26T13:34:07+08:00 ] 127.0.0.1 /Admin/Auser/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-12-26T13:34:10+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-12-26T14:01:59+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000640s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001713s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011221s ]
+
+[ 2016-12-26T14:02:00+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003818s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004486s ]
+
+[ 2016-12-26T14:02:32+08:00 ] 127.0.0.1 /Admin/Auser/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003631s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006317s ]
+
+[ 2016-12-26T14:03:05+08:00 ] 127.0.0.1 /Admin/Auser/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009537s ]
+
+[ 2016-12-26T14:03:30+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog` LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-12-26T14:03:31+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-12-26T14:05:21+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2016-12-26T14:06:10+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003191s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-12-26T14:06:10+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000744s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-12-26T14:06:10+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-12-26T14:14:26+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002138s ]
+
+[ 2016-12-26T15:15:03+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-12-26T15:17:21+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+
+[ 2016-12-26T15:24:11+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-12-26T15:24:12+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0023s ]
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+
+[ 2016-12-26T15:27:05+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000462s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-12-26T15:27:05+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+
+[ 2016-12-26T15:30:53+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-12-26T15:30:53+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+ERR: 1146:Table 'tpblog.setting' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `setting`
+
+[ 2016-12-26T15:33:12+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-12-26T15:33:14+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-26T15:33:15+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2016-12-26T15:33:15+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-12-26T15:33:15+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-12-26T15:33:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-12-26T15:33:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002788s ]
+
+[ 2016-12-26T15:33:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2016-12-26T15:33:17+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-12-26T15:33:20+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-12-26T15:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-12-26T15:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2016-12-26T15:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Undefined variable: config C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-12-26T15:34:52+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2] Illegal string offset 'kname' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 23 行.
+NOTIC: [2] Illegal string offset 'k' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 25 行.
+NOTIC: [2] Illegal string offset 'value' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 25 行.
+NOTIC: [2] Illegal string offset 'k' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-12-26T15:34:53+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000351s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [2] Illegal string offset 'kname' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 23 行.
+NOTIC: [2] Illegal string offset 'k' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 25 行.
+NOTIC: [2] Illegal string offset 'value' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 25 行.
+NOTIC: [2] Illegal string offset 'k' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-12-26T15:34:53+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [2] Illegal string offset 'kname' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 23 行.
+NOTIC: [2] Illegal string offset 'k' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 25 行.
+NOTIC: [2] Illegal string offset 'value' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 25 行.
+NOTIC: [2] Illegal string offset 'k' C:\wamp64\www\tpblog\Application\Runtime\Cache\Admin\b4a98bddcf0359d3e5c76d4637a711eb.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-12-26T15:41:06+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-12-26T15:41:07+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-12-26T15:41:07+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-12-26T15:41:07+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-12-26T15:42:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-12-26T15:42:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-12-26T15:42:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-12-26T15:42:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-12-26T15:42:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-12-26T15:42:17+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-12-26T15:42:17+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-12-26T15:43:38+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-12-26T15:45:59+08:00 ] 127.0.0.1 /index.php/Admin/Setting/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0030s ]
+SQL: UPDATE `setting` SET `value`='111' WHERE `k` = '博客标题' [ RunTime:0.0004s ]
+SQL: UPDATE `setting` SET `value`='2' WHERE `k` = '分页' [ RunTime:0.0002s ]
+
+[ 2016-12-26T15:45:59+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-12-26T15:46:24+08:00 ] 127.0.0.1 /index.php/Admin/Setting/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0038s ]
+SQL: UPDATE `setting` SET `value`='第一个TPBLOG' WHERE `k` = '博客标题' [ RunTime:0.0020s ]
+SQL: UPDATE `setting` SET `value`='4' WHERE `k` = '分页' [ RunTime:0.0006s ]
+
+[ 2016-12-26T15:46:24+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-12-26T15:51:29+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-12-26T15:51:30+08:00 ] 127.0.0.1 /index.php/Admin/Setting/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: UPDATE `setting` SET `value`='第一个TPBLOG' WHERE `k` = '博客标题' [ RunTime:0.0002s ]
+SQL: UPDATE `setting` SET `value`='4' WHERE `k` = '分页' [ RunTime:0.0001s ]
+
+[ 2016-12-26T15:51:30+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2016-12-26T15:51:31+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 11 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-12-26T15:51:38+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-12-26T15:51:39+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 11 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0019s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-12-26T15:51:40+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002499s ]
+
+[ 2016-12-26T15:51:43+08:00 ] 127.0.0.1 /index.php/Admin/Setting/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0023s ]
+SQL: UPDATE `setting` SET `value`='第一个TPBLOG' WHERE `k` = '博客标题' [ RunTime:0.0019s ]
+SQL: UPDATE `setting` SET `value`='2' WHERE `k` = '分页' [ RunTime:0.0016s ]
+
+[ 2016-12-26T15:51:43+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-12-26T15:51:43+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000293s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 11 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0002s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-12-26T15:51:48+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-12-26T15:51:48+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2016-12-26T15:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000723s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-12-26T15:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003530s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-12-26T15:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-12-26T15:53:25+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0409s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 13 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-12-26T15:53:26+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002890s ]
+
+[ 2016-12-26T15:53:27+08:00 ] 127.0.0.1 /index.php/Admin/Setting/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: UPDATE `setting` SET `value`='第一个TPBLOG' WHERE `k` = '博客标题' [ RunTime:0.0002s ]
+SQL: UPDATE `setting` SET `value`='2' WHERE `k` = '分页' [ RunTime:0.0001s ]
+
+[ 2016-12-26T15:53:27+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2016-12-26T15:53:27+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 13 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0002s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-12-26T15:53:58+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 13 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0007s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-12-26T15:53:59+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-12-26T15:53:59+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003076s ]
+
+[ 2016-12-26T15:54:00+08:00 ] 127.0.0.1 /index.php/Admin/Setting/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: UPDATE `setting` SET `value`='第一个TPBLOG' WHERE `k` = '博客标题' [ RunTime:0.0002s ]
+SQL: UPDATE `setting` SET `value`='2' WHERE `k` = '分页' [ RunTime:0.0001s ]
+
+[ 2016-12-26T15:54:00+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-12-26T15:54:00+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 13 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0017s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-12-26T15:54:50+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: value C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 14 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0002s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-12-26T15:55:14+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: k C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 14 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0002s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-12-26T15:55:17+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-12-26T15:55:19+08:00 ] 127.0.0.1 /index.php/Admin/Setting/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: UPDATE `setting` SET `value`='第一个TPBLOG' WHERE `k` = '博客标题' [ RunTime:0.0003s ]
+SQL: UPDATE `setting` SET `value`='2' WHERE `k` = '分页' [ RunTime:0.0001s ]
+
+[ 2016-12-26T15:55:19+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-12-26T15:55:23+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: k C:\wamp64\www\tpblog\Application\Admin\Controller\BlogController.class.php 第 14 行.
+SQL: SELECT * FROM `blog`  [ RunTime:0.0002s ]
+NOTIC: [2] Division by zero C:\wamp64\www\tpblog\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-12-26T15:56:04+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003532s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog` LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-12-26T15:56:06+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-12-26T16:03:55+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-12-26T16:03:55+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-12-26T16:03:56+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-12-26T16:03:56+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-12-26T16:03:56+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-12-26T22:22:56+08:00 ] 127.0.0.1 /Admin/Auser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-12-26T22:22:58+08:00 ] 127.0.0.1 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-12-26T22:23:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/index/do/chk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0941s ]
+SQL: SELECT * FROM `admin` WHERE `name` = '田添' AND `passwd` = '111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-12-26T22:23:03+08:00 ] 127.0.0.1 /Admin/Auser/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-12-26T22:23:18+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2016-12-26T22:32:54+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-12-26T22:32:55+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-12-26T22:32:58+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog` LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-12-26T22:33:00+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog` LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-12-26T22:33:00+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog` LIMIT 6,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
